@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>Czesc</pattern>
+        <template>Witaj</template>
+    </category>
+    
+    <category>
+        <pattern>Pa</pattern>
+        <template>Do zobaczenia!</template>
+    </category>
+  
+    <category>
+        <pattern>Dzien dobry</pattern>
+        <template><srai>Czesc</srai></template>
+    </category>
+    
+    <category>
+        <pattern>Witaj</pattern>
+        <template><srai>Czesc</srai></template>
+    </category>
+    
+    <category>
+        <pattern>Dobry wieczor</pattern>
+        <template><srai>Czesc</srai></template>
+    </category>
+    
+    <category>
+        <pattern>Siema</pattern>
+        <template>Siema</template>
+    </category>
+    
+    <category>
+        <pattern>Do widzenia</pattern>
+        <template><srai>Pa</srai></template>
+    </category>
+    
+    <category>
+        <pattern>Do zobaczenia</pattern>
+        <template><srai>Pa</srai></template>
+    </category>
+    
+    <category>
+        <pattern>Papa</pattern>
+        <template><srai>Pa</srai></template>
+    </category>
+    
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    <category>
+        <pattern>*</pattern>
+        <template>
+            <random>
+                <li>co?</li>
+                <li>jeszcze jak</li>
+                <li>pewnie</li>
+                <li>aha</li>
+            </random>   
+        </template>
+    </category>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    
+
+    <category>
+        <pattern>Kto to Michael Jackson</pattern>
+        <template>Amerykański muzyk i tancerz</template>
+    </category>
+    <category>
+        <pattern>Czy wiesz kto to * </pattern>
+        <template><srai>Kto to <star/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>Kim byl Michael Jackson</pattern>
+        <template>Amerykańskim muzykiem i tancerzem</template>
+    </category>
+    <category>
+        <pattern>Czy wiesz kim byl * </pattern>
+        <template><srai>Kim byl <star/></srai></template>
+    </category>
+
+
+    <category>
+        <pattern>Slyszales o Michaelu Jacksonie</pattern>
+        <template>Pewnie! Mój ulubiony amerykański muzyk i tancerz!</template>
+    </category>
+    <category>
+        <pattern>Czy slyszales o * </pattern>
+        <template><srai>Slyszales o <star/></srai></template>
+    </category>
+    
+    -----------------------------------------------------------------------------
+    
+    <category>
+        <pattern>Kto to Lady Gaga</pattern>
+        <template>Amerykańska piosenkarka</template>
+    </category>
+    <category>
+        <pattern>Czy wiesz kto to * </pattern>
+        <template><srai>Kto to <star/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>Kim byla Lady Gaga</pattern>
+        <template>Amerykańska piosenkarka</template>
+    </category>
+    <category>
+        <pattern>Czy wiesz kim byla * </pattern>
+        <template><srai>Kim byla <star/></srai></template>
+    </category>
+
+
+    <category>
+        <pattern>Slyszales o Lady Gaga</pattern>
+        <template>Pewnie! Mój ulubiona amerykańska piosenkarka!</template>
+    </category>
+    <category>
+        <pattern>Czy slyszales o * </pattern>
+        <template><srai>Slyszales o <star/></srai></template>
+    </category>
+    
+    -----------------------------------------------------------------------------------
+    <category>
+        <pattern>Kto to *</pattern>
+        <template>Niestety nie wiem</template>
+    </category>
+    <category>
+        <pattern>Czy wiesz kto to * </pattern>
+        <template><srai>Kto to <star/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>Kim byla *</pattern>
+        <template>Niestety nie wiem</template>
+    </category>
+    <category>
+        <pattern>Czy wiesz kim byla * </pattern>
+        <template><srai>Kim byla <star/></srai></template>
+    </category>
+
+
+    <category>
+        <pattern>Slyszales o *</pattern>
+        <template>Niestety nie :(</template>
+    </category>
+    <category>
+        <pattern>Czy slyszales o * </pattern>
+        <template><srai>Slyszales o <star/></srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>Kto to *</pattern>
+        <template>Niestety nie wiem</template>
+    </category>
+    <category>
+        <pattern>Czy wiesz kto to * </pattern>
+        <template><srai>Kto to <star/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>Kim byl *</pattern>
+        <template>Niestety nie wiem</template>
+    </category>
+    <category>
+        <pattern>Czy wiesz kim byl * </pattern>
+        <template><srai>Kim byla <star/></srai></template>
+    </category>
+
+
+    <category>
+        <pattern>Slyszales o *</pattern>
+        <template>Niestety nie :(</template>
+    </category>
+    <category>
+        <pattern>Czy slyszales o * </pattern>
+        <template><srai>Slyszales o <star/></srai></template>
+    </category>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    
+  
+    <category>
+    <pattern>pop jest najpopularniejszym gatunkiem muzycznym na swiecie</pattern>
+    <template>tak</template>
+    </category>
+    
+    <category>
+    <pattern>hip-hop jest najpopularniejszy w ameryce</pattern>
+    <template>nie</template>
+    </category>
+    
+    <category>
+    <pattern>myslisz ze Lady Gaga ma szanse na Grammy</pattern>
+    <template>na pewno!</template>
+    </category>
+    
+    <category>
+    <pattern>myslisz ze gdyby Jackson zyl bylby dalej na topie</pattern>
+    <template>tak</template>
+    </category>
+    
+    <category>
+    <pattern>myslisz ze doda powroci na szczyt</pattern>
+    <template>nie ma takiej szansy</template>
+    </category>
+    
+    <category>
+    <pattern>myslisz ze latwo jest zostac muzykiem</pattern>
+    <template>nie</template>
+    </category>
+    
+    <category>
+        <pattern>myslisz ze Michael Jackson umarl</pattern>
+        <template>to nie temat na nasza rozmowe</template>
+    </category>
+    
+    <category>
+    <pattern>Czy *</pattern>
+    <template>Sadze, ze <srai><star/></srai></template>
+    </category>
+    
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    
+    <category>
+        <pattern>muzyka</pattern>
+        <template>Interesujesz sie muzyka ?</template>
+    </category>
+    
+    <category>
+        <pattern>* muzyka</pattern>
+        <template><srai>muzyka</srai></template>
+    </category>
+    
+    <category>
+        <pattern>muzyka *</pattern>
+        <template><srai>muzyka</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* muzyka *</pattern>
+        <template><srai>muzyka</srai></template>
+    </category>
+    -----------------------------------------------------------
+    <category>
+        <pattern>muzyki</pattern>
+        <template>Interesujesz sie muzyka ?</template>
+    </category>
+    
+    <category>
+        <pattern>* muzyki</pattern>
+        <template><srai>muzyka</srai></template>
+    </category>
+    
+    <category>
+        <pattern>muzyki *</pattern>
+        <template><srai>muzyka</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* muzyki *</pattern>
+        <template><srai>muzyka</srai></template>
+    </category>
+    -----------------------------------------------------------
+    <category>
+        <pattern>muzykami</pattern>
+        <template>Interesujesz sie muzyka ?</template>
+    </category>
+    
+    <category>
+        <pattern>* muzykami</pattern>
+        <template><srai>muzykami</srai></template>
+    </category>
+    
+    <category>
+        <pattern>muzykami *</pattern>
+        <template><srai>muzykami</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* muzykami *</pattern>
+        <template><srai>muzykami</srai></template>
+    </category>
+    ------------------------------------------------------------
+    <category>
+        <pattern>piosenka</pattern>
+        <template>Interesujesz sie muzyka?</template>
+    </category>
+    
+    <category>
+        <pattern>* piosenka</pattern>
+        <template><srai>piosenka</srai></template>
+    </category>
+    
+    <category>
+        <pattern>piosenka *</pattern>
+        <template><srai>piosenka</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* piosenka *</pattern>
+        <template><srai>piosenka</srai></template>
+    </category>
+    ----------------------------------------------------------
+    <category>
+        <pattern>piosenkami</pattern>
+        <template>Interesujesz sie muzyka?</template>
+    </category>
+    
+    <category>
+        <pattern>* piosenkami</pattern>
+        <template><srai>piosenkami</srai></template>
+    </category>
+    
+    <category>
+        <pattern>piosenkami *</pattern>
+        <template><srai>piosenkami</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* piosenkami *</pattern>
+        <template><srai>piosenkami</srai></template>
+    </category>
+    ----------------------------------------------------------
+    <category>
+        <pattern>zespol muzyczny</pattern>
+        <template>Interesujesz sie muzyka?</template>
+    </category>
+    
+    <category>
+        <pattern>* zespol muzyczny</pattern>
+        <template><srai>zespol muzyczny</srai></template>
+    </category>
+    
+    <category>
+        <pattern>zespol muzyczny *</pattern>
+        <template><srai>zespol muzyczny</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* zespol muzyczny *</pattern>
+        <template><srai>zespol muzyczny</srai></template>
+    </category>
+    -----------------------------------------------------------
+    
+    <category>
+        <pattern>piosenkarkami</pattern>
+        <template>Interesujesz sie muzyka?</template>
+    </category>
+    
+    <category>
+        <pattern>* piosenkarkami</pattern>
+        <template><srai>piosenkarkami</srai></template>
+    </category>
+    
+    <category>
+        <pattern>piosenkarkami *</pattern>
+        <template><srai>piosenkarkami</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* piosenkarkami *</pattern>
+        <template><srai>piosenkarkami</srai></template>
+    </category>
+    
+    -----------------------------------------------------------
+    
+    <category>
+        <pattern>piosenki</pattern>
+        <template>Interesujesz sie muzyka?</template>
+    </category>
+    
+    <category>
+        <pattern>* piosenki</pattern>
+        <template><srai>piosenka</srai></template>
+    </category>
+    
+    <category>
+        <pattern>piosenki *</pattern>
+        <template><srai>piosenka</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* piosenki *</pattern>
+        <template><srai>piosenka</srai></template>
+    </category>
+    
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    <category>
+        <pattern>Lubie muzyke</pattern>
+        <template>Jaki gatunek najbardziej ?</template>
+    </category>
+    
+    <category>
+        <pattern>Lubie muzyke</pattern>
+        <that>Dlaczego nie lubisz muzyki ?</that>
+        <template>Jestes niezdecydowany ...</template>
+    </category>
+    
+    <category>
+        <pattern>Nie lubie muzyki</pattern>
+        <template>Dlaczego nie lubisz muzyki ?</template>
+    </category>
+    
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    <category>
+        <pattern>Moim ulubionym muzykiem jest *</pattern>
+        <template>Dlaczego</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego</that>
+        <template>
+        Sadze, ze <set name="to"><star/></set> to swietny muzyk. Ale czy naprawde uwazasz, ze '<get name="to"/>' jest najlepszy ?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Moim ulubionym wykonawca jest *</pattern>
+        <template>Dlaczego</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego</that>
+        <template>
+        Sadze, ze <set name="to"><star/></set> to swietny wykonawca. Ale czy naprawde uwazasz, ze '<get name="to"/>' jest najlepszy ?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Moim ulubionym zespolem jest *</pattern>
+        <template>Dlaczego</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego</that>
+        <template>
+        Sadze, ze <set name="to"><star/></set> to swietny zespol. Ale czy naprawde uwazasz, ze '<get name="to"/>' jest najlepszy ?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Moim ulubionym bandem jest *</pattern>
+        <template>Dlaczego</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego</that>
+        <template>
+        Sadze, ze <set name="to"><star/></set> to swietny zespol. Ale czy naprawde uwazasz, ze '<get name="to"/>' jest najlepszy ?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Moim ulubionym piosenkarzem jest *</pattern>
+        <template>Dlaczego</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego</that>
+        <template>
+        Sadze, ze <set name="to"><star/></set> to swietny muzyk. Ale czy naprawde uwazasz, ze '<get name="to"/>' jest najlepszy ?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Moja ulubiona piosenkarka jest *</pattern>
+        <template>Dlaczego</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego</that>
+        <template>
+        Sadze, ze <set name="to"><star/></set> to swietna piosenkarka. Ale czy naprawde uwazasz, ze '<get name="to"/>' jest najlepsza ?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Moja ulubiona piosenka jest *</pattern>
+        <template>Dlaczego</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego</that>
+        <template>
+        Sadze, ze <set name="to"><star/></set> to swietna piosenka. Ale wedlug mnie '<get name="to"/>' jest zbyt powolna
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Moja ulubiona nuta jest *</pattern>
+        <template>Dlaczego</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego</that>
+        <template>
+        Sadze, ze <set name="to"><star/></set> to swietna piosenka. Ale wedlug mnie '<get name="to"/>' jest zbyt powolna
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Moja ulubionym kawalkiem jest *</pattern>
+        <template>Dlaczego</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego</that>
+        <template>
+        Sadze, ze <set name="to"><star/></set> to swietna piosenka. Ale wedlug mnie '<get name="to"/>' jest zbyt szybka
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Moja ulubiona muza jest *</pattern>
+        <template>Dlaczego</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego</that>
+        <template>
+        Sadze, ze <set name="to"><star/></set> to swietna piosenka. Ale wedlug mnie '<get name="to"/>' jest zbyt szybka
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Uwazam ze *</pattern>
+        <template>Dlaczego tak myslisz</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Dlaczego tak myslisz</that>
+        <template>
+        Nie sadze, zeby <set name="to"><star/></set> bylo wystarczajacym wyjasnieniem. Czy naprawde uwazasz, ze '<get name="to"/>' wystarczy ?
+        </template>
+    </category>
+    
+    
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    <category>
+        <pattern>Poznajmy *</pattern>
+        <template>Jak masz na imie?</template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <that>Jak masz na imie</that>
+        <template>
+        Czesc <set name="imie"><star/></set>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Jak mam na imie</pattern>
+        <template><get name="imie"/></template>
+    </category>
+    
+-----------------------------------------------------------------------    
+    <category>
+        <pattern>Zapoznamy *</pattern>
+        <template>Jak masz na imie?</template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <that>Jak masz na imie</that>
+        <template>
+        Czesc <set name="imie"><star/></set>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Jak mam na imie</pattern>
+        <template><get name="imie"/></template>
+    </category>
+---------------------------------------------------------------------------
+    <category>
+        <pattern>* mojego imienia</pattern>
+        <template>Jak masz na imie?</template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <that>Jak masz na imie</that>
+        <template>
+        Czesc <set name="imie"><star/></set>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Jak mam na imie</pattern>
+        <template><get name="imie"/></template>
+    </category>
+    
+--------------------------------------------------------------------------------
+    <category>
+        <pattern>* moje imie</pattern>
+        <template>Jak masz na imie?</template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <that>Jak masz na imie</that>
+        <template>
+        Czesc <set name="imie"><star/></set>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Jak mam na imie</pattern>
+        <template><get name="imie"/></template>
+    </category>
+    
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    <topic name="MUZYKA">
+    <category>
+        <pattern>Muzyka *</pattern>
+        <template>
+        <random>
+            <li>Sluchasz czasem muzyki?</li>
+            <li>Jakiej muyzki najbardziej nie lubisz ?</li>
+            <li>Jaka muzyke najbardziej lubisz ?</li>
+        </random>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>*</pattern>
+    <template>Jaki to ma zwiazek z muzyka ?</template>
+    </category>
+    
+    <category>
+    <pattern>Nie mam ochoty na ten temat rozmawiac</pattern>
+    <template><think><set name="topic">*</set></think>W porzadku, nie rozmawiajmy o muzyce</template>
+    </category>
+    
+    </topic>
+    <category>
+    <pattern>Muzyka *</pattern>
+    <template>Muzyka to swietna rzecz!</template>
+    </category>
+    
+    <category>
+    <pattern>Interesujesz sie muzyka</pattern>
+    <template><think><set name="topic">MUZYKA</set></think>Owszem, chetnie o niej porozmawiam</template>
+    </category>
+    
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    <category>
+    <pattern>* Michael Jackson * umarl</pattern>
+    <template>
+    Naprawde tak myslisz ?
+    <think><set name="topic">WKOLO</set></think>
+    </template>
+    </category>
+    
+    <topic name="WKOLO">
+    <category>
+        <pattern>*</pattern>
+        <template>
+        <think><set name="var"><star /></set></think>
+        <condition>
+            <li name="var" value="tak">
+            Przyznajesz sie.
+            <think><set name="topic">*</set></think>
+            </li>
+            <li name="var" value="nie">
+            Wypierasz sie.
+            <think><set name="topic">*</set></think>
+            </li>
+            <li>Tak czy nie ?</li>
+        </condition>
+        </template>
+    </category>
+    </topic>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+</aiml>
